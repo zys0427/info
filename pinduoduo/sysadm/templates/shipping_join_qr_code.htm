@@ -1,0 +1,44 @@
+<!-- $Id: goods_info.htm 17126 2010-04-23 10:30:26Z liuhui $ -->
+{include file="pageheader.htm"}
+{insert_scripts files="../js/utils.js"}
+{insert_scripts files="../js/region.js"}
+<div class="tab-div">
+  <table  width="100%"  border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td align="center"><img src="http://qr.liantu.com/api.php?text={$share_url}&w=200&m=10"  ></td>
+    </tr>
+    <tr>
+      <td height="40" align="center" style="font-size:14px; color:#F00;" id="message">{if $point.wx_name}{$point.wx_name}&nbsp;&nbsp;&nbsp;<a href="shipping_point.php?act=delete_join&id={$point.id}" onclick="return confirm('确定要此操作吗');">解除绑定</a>{else}暂无绑定，请通过自提点管理员手机进行扫描二维码绑定，或鼠标右键保存二维码发送给管理员进行扫描。{/if}</td>
+    </tr>
+  </table>
+</div>
+{insert_scripts files="validator.js,tab.js"}
+{include file="pagefooter.htm"}
+	<script>
+onload = function()
+{
+  try
+  {
+    OnloadPage();
+  }
+  catch (e)
+  {}
+}
+function OnloadPage()
+{
+	{if $point.wx_name eq ''}
+    setInterval(function()
+    {
+ 		 Ajax.call('shipping_point.php?act=get_message&id={$point.id}', '', messageTypeResponse, 'GET', 'JSON');
+	},1000);
+	{/if}
+}
+function messageTypeResponse(result)
+{
+	if(result.content ==1)
+	{
+		document.getElementById('message').innerHTML ='绑定成功!'
+	}
+	
+}
+</script>

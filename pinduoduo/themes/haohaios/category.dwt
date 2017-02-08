@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="Keywords" content="{$keywords}" />
+<meta name="Description" content="{$description}" />
+<title>{$page_title}</title>
+<link rel="shortcut icon" href="favicon.ico" />
+<link href="{$hhs_css_path}/haohaios.css" rel="stylesheet" />
+<link href="{$hhs_css_path}/font-awesome.min.css" rel="stylesheet" />
+{* 包含脚本文件 *}
+{insert_scripts files='jquery.js,haohaios.js,jquery.mmenu.js'}
+</head>
+<body>
+<div class="container">
+    <div class="main_menu">
+        <ul>
+            <li><a href="index.php">首页</a></li>
+            {foreach from=$categories item=cat}
+            <li><a href="{$cat.url}"{if $cat.id eq $cat_id} class="cur"{/if}>{$cat.name|escape:html}</a></li>
+            {/foreach}
+        </ul>
+    </div>
+
+<div class="tuan" style="padding-top:30px; display: block;">
+            <div ms-repeat-item="goods_list">
+
+
+    <!--{foreach from=$goods_list item=goods}-->
+    <!-- {if $goods.goods_id} -->
+                <div class="tuan_g" >
+                    <a href="{if $goods.goods_number gt 0}{$goods.url}{else}javascript:void(0);{/if}">
+                        <div class="tuan_g_img">
+                            <img src="{$goods.little_img}">
+                            {if $goods.goods_number lt 1}
+                            <span class="sell_f"></span>
+                            {/if}
+                            <span class="tuan_mark tuan_mark2">
+                            <b>{$goods.team_discount}折</b>
+                            <span>{$goods.team_num}人团</span>
+                            </span>
+                        </div>
+                        <div class="tuan_g_info">
+                            <p class="tuan_g_name">{$goods.goods_name}</p>
+                            <p class="tuan_g_cx">{$goods.goods_brief}</p>
+                        </div>
+                        <div class="tuan_g_core">
+                            <div class="tuan_g_price">
+                                <span>{$goods.team_num}人团</span>
+                                <b>¥{$goods.team_price}</b>
+                            </div>
+                            <div class="tuan_g_btn">去开团</div>
+                        </div>
+                        <div class="tuan_g_mprice">市场价：
+                            <del>¥{$goods.market_price}</del>
+                        </div>
+                    </a>
+                </div>
+    <!--{/if}-->
+    <!--{/foreach}-->
+    
+             </div>
+        </div>
+</div>
+<div class="footer">
+    <ul>
+        <li><a href="index.php" class="nav-controller"><i class="fa fa-home"></i>首页</a></li>
+        <li><a href="rank.php?act=hot" class="nav-controller"><i class="fa fa-trophy"></i>热榜</a></li>
+        <li><a href="cat_all.php" class="nav-controller active"><i class="fa fa-list"></i>分类</a></li>
+        <li><a href="user.php" class="nav-controller"><i class="fa fa-user"></i>个人中心</a></li>
+    </ul>
+</div>
+</body>
+</html>

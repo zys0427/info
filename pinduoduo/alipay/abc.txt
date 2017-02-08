@@ -1,0 +1,105 @@
+﻿{
+           "touser":"onSWAuOcOaSJgGidvKTJoj6u0rCc",
+           "msgtype":"news",
+           "news":{
+               "articles": [
+                {
+                    "title":"付款成功",
+                    "description":"恭喜您荣升为团长！马上叫小伙伴来参团，组团成功才能享受优惠哦~",
+                    "url":"http://pt.hostadmin.com.cn/share.php?team_sign=1142",
+                    "picurl":""
+                }
+                ]
+           }
+       }8888===O:8:"stdClass":2:{s:7:"errcode";i:45015;s:6:"errmsg";s:77:"response out of time limit or subscription is canceled hint: [1lLLZa0410age1]";}{
+           "touser":"onSWAuOcOaSJgGidvKTJoj6u0rCc",
+           "msgtype":"news",
+           "news":{
+               "articles": [
+                {
+                    "title":"付款成功",
+                    "description":"恭喜您荣升为团长！马上叫小伙伴来参团，组团成功才能享受优惠哦~",
+                    "url":"http://pt.hostadmin.com.cn/share.php?team_sign=1133",
+                    "picurl":""
+                }
+                ]
+           }
+       }8888===O:8:"stdClass":2:{s:7:"errcode";i:45015;s:6:"errmsg";s:77:"response out of time limit or subscription is canceled hint: [6oFtiA0434age5]";}{
+           "touser":"onSWAuOcOaSJgGidvKTJoj6u0rCc",
+           "msgtype":"news",
+           "news":{
+               "articles": [
+                {
+                    "title":"付款成功",
+                    "description":"恭喜您荣升为团长！马上叫小伙伴来参团，组团成功才能享受优惠哦~",
+                    "url":"http://pt.hostadmin.com.cn/share.php?team_sign=1144",
+                    "picurl":""
+                }
+                ]
+           }
+       }8888===O:8:"stdClass":2:{s:7:"errcode";i:45015;s:6:"errmsg";s:77:"response out of time limit or subscription is canceled hint: [099Ama0453age3]";}{
+           "touser":"onSWAuOcOaSJgGidvKTJoj6u0rCc",
+           "msgtype":"news",
+           "news":{
+               "articles": [
+                {
+                    "title":"付款成功",
+                    "description":"恭喜您荣升为团长！马上叫小伙伴来参团，组团成功才能享受优惠哦~",
+                    "url":"http://pt.hostadmin.com.cn/share.php?team_sign=1134",
+                    "picurl":""
+                }
+                ]
+           }
+       }8888===N;{
+           "touser":"onSWAuOcOaSJgGidvKTJoj6u0rCc",
+           "msgtype":"news",
+           "news":{
+               "articles": [
+                {
+                    "title":"付款成功",
+                    "description":"恭喜您荣升为团长！马上叫小伙伴来参团，组团成功才能享受优惠哦~",
+                    "url":"http://pt.hostadmin.com.cn/share.php?team_sign=1141",
+                    "picurl":""
+                }
+                ]
+           }
+       }8888===O:8:"stdClass":2:{s:7:"errcode";i:0;s:6:"errmsg";s:2:"ok";}{
+           "touser":"onSWAuOcOaSJgGidvKTJoj6u0rCc",
+           "msgtype":"news",
+           "news":{
+               "articles": [
+                {
+                    "title":"付款成功",
+                    "description":"恭喜您荣升为团长！马上叫小伙伴来参团，组团成功才能享受优惠哦~",
+                    "url":"http://pt.hostadmin.com.cn/share.php?team_sign=1143",
+                    "picurl":""
+                }
+                ]
+           }
+       }8888===O:8:"stdClass":2:{s:7:"errcode";i:0;s:6:"errmsg";s:2:"ok";}{
+           "touser":"onSWAuOcOaSJgGidvKTJoj6u0rCc",
+           "msgtype":"news",
+           "news":{
+               "articles": [
+                {
+                    "title":"付款成功",
+                    "description":"恭喜您荣升为团长！马上叫小伙伴来参团，组团成功才能享受优惠哦~",
+                    "url":"http://pt.hostadmin.com.cn/share.php?team_sign=1135",
+                    "picurl":""
+                }
+                ]
+           }
+       }8888===O:8:"stdClass":2:{s:7:"errcode";i:0;s:6:"errmsg";s:2:"ok";}{
+           "touser":"onSWAuOcOaSJgGidvKTJoj6u0rCc",
+           "msgtype":"news",
+           "news":{
+               "articles": [
+                {
+                    "title":"付款成功",
+                    "description":"恭喜您荣升为团长！马上叫小伙伴来参团，组团成功才能享受优惠哦~",
+                    "url":"http://pt.hostadmin.com.cn/share.php?team_sign=1145",
+                    "picurl":""
+                }
+                ]
+           }
+       }8888===O:8:"stdClass":2:{s:7:"errcode";i:0;s:6:"errmsg";s:2:"ok";}
