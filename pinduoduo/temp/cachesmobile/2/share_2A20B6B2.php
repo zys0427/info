@@ -3,7 +3,7 @@
 <meta name="Generator" content="HHSHOP v2.7.3" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
           
 <meta charset="utf-8">     
-<title>昊海软件 - Powered by HHShop</title>        
+<title>软件 - Powered by HHShop</title>        
 <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" name="viewport">     
 <meta content="yes" name="apple-mobile-web-app-capable">     
 <meta content="black" name="apple-mobile-web-app-status-bar-style">     

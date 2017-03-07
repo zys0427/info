@@ -3,7 +3,7 @@
 <head>
 <meta name="Generator" content="HHSHOP v2.7.3" />
 <META content="IE=7.0000" http-equiv="X-UA-Compatible">
-<TITLE>昊海软件 - Powered by HHShop 触屏版</TITLE>
+<TITLE> Powered by HHShop 触屏版</TITLE>
 <META content="text/html; charset=utf-8" http-equiv=Content-Type>
 <META name=viewport 
 content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -124,7 +124,7 @@ content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable
         document.getElementById("btn_go_pc").href='http://www.tmall.com/go/act/is-desktop.php?r='+str.replace('mobile\/' , '');
         </SCRIPT> 
     </P>
-    <P class=copyright>&copy; 2005-2015 昊海软件 版权所有，并保留所有权利。</P>
+    <P class=copyright>&copy; 2005-2015  版权所有，并保留所有权利。</P>
   </FOOTER>
 </DIV>
 <SCRIPT src="themes/default/js/sea.js"></SCRIPT> 

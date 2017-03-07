@@ -4,7 +4,7 @@
 <meta name="Generator" content="HHSHOP v2.7.3" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta charset="utf-8">
-<title>CDMA手机_手机类型_昊海软件 - Powered by HHShop触屏版</title>
+<title>CDMA手机_手机类型_软件 - Powered by HHShop触屏版</title>
 <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" name="viewport">
 <meta content="yes" name="apple-mobile-web-app-capable">
 <meta content="black" name="apple-mobile-web-app-status-bar-style">
@@ -209,7 +209,7 @@ var select_spe = "请选择商品属性";
     </div>
     <div class="h-line"></div>
     <div class="footer-v"> <a href="javascript:window.scroll(0,0);" class="backTop" data-atp="1,top,,,tools,20,tools,"> <img alt="返回顶部" src="themes/default/images/top.png"> </a>
-      <div class="copyright"> &copy; 2005-2015 昊海软件 版权所有，并保留所有权利。 </div>
+      <div class="copyright"> &copy; 2005-2015 软件 版权所有，并保留所有权利。 </div>
     </div>
   </footer>
 </div>

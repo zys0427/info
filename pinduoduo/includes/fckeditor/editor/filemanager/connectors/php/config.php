@@ -57,7 +57,7 @@ require(ROOT_PATH . 'includes/cls_hhshop.php');
 require(ROOT_PATH . 'includes/cls_session.php');
 require(ROOT_PATH . 'includes/lib_common.php');
 
-/* 创建 昊海电商 对象 */
+/* 创建 电商 对象 */
 $hhs = new HHS($db_name, $prefix);
 define('DATA_DIR', $hhs->data_dir());
 define('IMAGE_DIR', $hhs->image_dir());

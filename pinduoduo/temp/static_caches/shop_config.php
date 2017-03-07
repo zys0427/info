@@ -1,10 +1,10 @@
 <?php
 $data = array (
   'index_share_dec' => '这个商品帅呆了，大家一起来拼单吧，赶紧行动吧！GOGOGOGO！',
-  'shop_name' => '昊海拼团',
-  'shop_title' => '昊海拼团  11-1【测试-网站演示专用】',
-  'shop_desc' => '昊海拼团，优质水果新鲜直供，大家一起来玩吧！!',
-  'shop_keywords' => '一聚就惠',
+  'shop_name' => '拼团',
+  'shop_title' => '拼团  11-1【测试-网站演示专用】',
+  'shop_desc' => '拼团，优质水果新鲜直供，大家一起来玩吧！!',
+  'shop_keywords' => '一',
   'index_share_title' => '这个商品帅呆了，大家一起来拼单吧，赶紧行动吧！GOGOGOGO！',
   'default_shipping_id' => '25',
   'shop_address' => '西安市金色城市',

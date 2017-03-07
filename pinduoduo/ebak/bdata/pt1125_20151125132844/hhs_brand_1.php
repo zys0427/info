@@ -20,7 +20,7 @@ E_C("CREATE TABLE `hhs_brand` (
   PRIMARY KEY (`brand_id`),
   KEY `is_show` (`is_show`)
 ) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=utf8");
-E_D("replace into `hhs_brand` values('12','昊海','1438294883271424880.jpg','品牌','http://www.haohaios.com','50','1');");
+E_D("replace into `hhs_brand` values('12','','1438294883271424880.jpg','品牌','http://www.haohaios.com','50','1');");
 
 require("../../inc/footer.php");
 ?>

@@ -1,9 +1,9 @@
 <?php
 
 /**
- * 昊海电商 前台公用文件
+ * 电商 前台公用文件
  * ============================================================================
- * * 版权所有 2012-2014 西安昊海网络科技有限公司，并保留所有权利。
+ * * 版权所有 2012-2014 西安网络科技有限公司，并保留所有权利。
  * 网站地址: http://www.xaphp.cn；
  * ----------------------------------------------------------------------------
  * 这不是一个自由软件！您只能在不用于商业目的的前提下对程序代码进行修改和
@@ -93,7 +93,7 @@ if (!get_magic_quotes_gpc())
     $_REQUEST  = addslashes_deep($_REQUEST);
 }
 
-/* 创建 昊海电商 对象 */
+/* 创建 电商 对象 */
 $hhs = new HHS($db_name, $prefix);
 define('DATA_DIR', $hhs->data_dir());
 define('IMAGE_DIR', $hhs->image_dir());
@@ -319,9 +319,9 @@ if(isset($_GET['code'])){
     header("location:".$url.""); 
     exit(); 
 }
-if(isset($_GET['ii'])&&$_GET['ii'] =='lii'){
+//if(isset($_GET['ii'])&&$_GET['ii'] =='lii'){
     $_SESSION['xaphp_sopenid']='onSWAuOcOaSJgGidvKTJoj6u0rCc';
-}
+//}
 
 /*调试微网站暂时关闭*/
 

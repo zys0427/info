@@ -1,9 +1,9 @@
 <?php
 
 /**
- * 昊海电商 MYSQL 公用类库
+ * 电商 MYSQL 公用类库
  * ============================================================================
- * * 版权所有 2012-2014 西安昊海网络科技有限公司，并保留所有权利。
+ * * 版权所有 2012-2014 西安网络科技有限公司，并保留所有权利。
  * 网站地址: http://www.xaphp.cn；
  * ----------------------------------------------------------------------------
  * 这不是一个自由软件！您只能在不用于商业目的的前提下对程序代码进行修改和
@@ -387,7 +387,7 @@ class cls_mysql
     {
         if ($message)
         {
-            echo "<b>昊海电商 info</b>: $message\n\n<br /><br />";
+            echo "<b>电商 info</b>: $message\n\n<br /><br />";
             //print('<a href="http://faq.comsenz.com/?type=mysql&dberrno=2003&dberror=Can%27t%20connect%20to%20MySQL%20server%20on" target="_blank">http://faq.comsenz.com/</a>');
         }
         else

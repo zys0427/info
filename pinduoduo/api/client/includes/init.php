@@ -1,7 +1,7 @@
 <?php
 
 /**
- * 昊海电商 前台公用文件
+ * 电商 前台公用文件
  * ============================================================================
  * 版权所有 (C) 2005-2011 康盛创想（北京）科技有限公司，并保留所有权利。
  * 网站地址: http://www.xaphp.cn
@@ -75,7 +75,7 @@ require(ROOT_PATH . 'includes/lib_main.php');
 require(ROOT_PATH . 'includes/lib_insert.php');
 require(ROOT_PATH . 'includes/lib_goods.php');
 
-/* 创建 昊海电商 对象 */
+/* 创建 电商 对象 */
 $hhs = new HHS($db_name, $prefix);
 
 /* 初始化数据库类 */

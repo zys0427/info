@@ -1,9 +1,9 @@
 <?php
 
 /**
- * 昊海电商 SESSION 公用类库
+ * 电商 SESSION 公用类库
  * ============================================================================
- * * 版权所有 2012-2014 西安昊海网络科技有限公司，并保留所有权利。
+ * * 版权所有 2012-2014 西安网络科技有限公司，并保留所有权利。
  * 网站地址: http://www.xaphp.cn；
  * ----------------------------------------------------------------------------
  * 这不是一个自由软件！您只能在不用于商业目的的前提下对程序代码进行修改和
@@ -270,12 +270,12 @@ class cls_session
 
         setcookie($this->session_name, $this->session_id, 1, $this->session_cookie_path, $this->session_cookie_domain, $this->session_cookie_secure);
 
-        /* 昊海电商 自定义执行部分 */
+        /* 电商 自定义执行部分 */
         if (!empty($GLOBALS['hhs']))
         {
 			$this->db->query('DELETE FROM ' . $GLOBALS['hhs']->table('cart') . " WHERE session_id ='$this->session_id' AND user_id = 0");//只清空匿名用户的购物车退出不清空购物车*/
         }
-        /* 昊海电商 自定义执行部分 */
+        /* 电商 自定义执行部分 */
 
         $this->db->query('DELETE FROM ' . $this->session_data_table . " WHERE sesskey = '" . $this->session_id . "' LIMIT 1");
 

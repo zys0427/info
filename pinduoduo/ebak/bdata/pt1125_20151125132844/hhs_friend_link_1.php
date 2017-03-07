@@ -18,7 +18,7 @@ E_C("CREATE TABLE `hhs_friend_link` (
   PRIMARY KEY (`link_id`),
   KEY `show_order` (`show_order`)
 ) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8");
-E_D("replace into `hhs_friend_link` values('4','昊海网上商城','http://test.xakc.net/hhshop/','data/afficheimg/1420498253802086599.jpg','1');");
+E_D("replace into `hhs_friend_link` values('4','网上商城','http://test.xakc.net/hhshop/','data/afficheimg/1420498253802086599.jpg','1');");
 
 require("../../inc/footer.php");
 ?>

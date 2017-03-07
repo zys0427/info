@@ -1,9 +1,9 @@
 <?php
 
 /**
- * 昊海电商 数据库导出类
+ * 电商 数据库导出类
  * ============================================================================
- * * 版权所有 2012-2014 西安昊海网络科技有限公司，并保留所有权利。
+ * * 版权所有 2012-2014 西安网络科技有限公司，并保留所有权利。
  * 网站地址: http://www.xaphp.cn；
  * ----------------------------------------------------------------------------
  * 这不是一个自由软件！您只能在不用于商业目的的前提下对程序代码进行修改和
@@ -69,14 +69,9 @@ class cls_sql_dump
      *
      * @return void
      */
-    function cls_sql_dump(&$db, $max_size=0)
+    function __construct(&$db, $max_size =0)
     {
-        $this->db = &$db;
-        if ($max_size > 0 )
-        {
-            $this->max_size = $max_size;
-        }
-
+        $this->cls_sql_dump($db, $max_size);
     }
 
     /**
@@ -87,10 +82,17 @@ class cls_sql_dump
      *
      * @return void
      */
-    function __construct(&$db, $max_size =0)
+    function cls_sql_dump(&$db, $max_size=0)
     {
-        $this->cls_sql_dump($db, $max_size);
+        $this->db = &$db;
+        if ($max_size > 0 )
+        {
+            $this->max_size = $max_size;
+        }
+
     }
+
+
 
     /**
      *  获取指定表的定义
@@ -475,7 +477,7 @@ class cls_sql_dump
      *
      * @return      string      $str    随机名称
      */
-    function get_random_name()
+    static function get_random_name()
     {
         $str = date('Ymd');
 

@@ -4,7 +4,7 @@
 <meta name="Generator" content="HHSHOP v2.7.3" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta charset="utf-8">
-<title>飞利浦9@9v_GSM手机_手机类型_昊海软件 - Powered by HHShop触屏版</title>
+<title>飞利浦9@9v_GSM手机_手机类型_软件 - Powered by HHShop触屏版</title>
 <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" name="viewport">
 <meta content="yes" name="apple-mobile-web-app-capable">
 <meta content="black" name="apple-mobile-web-app-status-bar-style">
@@ -380,7 +380,7 @@ function getTop(e){
     <div class="login-info"> <a href="user.php">登录</a> <a href="user.php?act=register">注册</a> </div>
     <a class="help" href="article_cat.php?id=1">服务中心</a> </div>
   <div class="version"> <A  href="index.php?pid=">电脑版</a></div>
-  <div class="copyright">&copy; 2005-2015 昊海软件 版权所有，并保留所有权利。</div>
+  <div class="copyright">&copy; 2005-2015 软件 版权所有，并保留所有权利。</div>
   <a href="#app-detail" class="top">返回顶部</a> </footer>
  
  

@@ -1,9 +1,9 @@
 <?php
 
 /**
- * 昊海电商 前台公用函数库
+ * 电商 前台公用函数库
  * ============================================================================
- * * 版权所有 2012-2014 西安昊海网络科技有限公司，并保留所有权利。
+ * * 版权所有 2012-2014 西安网络科技有限公司，并保留所有权利。
  * 网站地址: http://www.xaphp.cn；
  * ----------------------------------------------------------------------------
  * 这不是一个自由软件！您只能在不用于商业目的的前提下对程序代码进行修改和
@@ -1392,7 +1392,9 @@ function get_tags($goods_id = 0, $user_id = 0)
  */
 function get_dyna_libs($theme, $tmp)
 {
-    $ext = end(explode('.', $tmp));
+    //$ext = end(explode('.', $tmp));
+    $newTmp = explode('.', $tmp);
+    $ext = end($newTmp);
     $tmp = basename($tmp,".$ext");
     $sql = 'SELECT region, library, sort_order, id, number, type' .
             ' FROM ' . $GLOBALS['hhs']->table('template') .

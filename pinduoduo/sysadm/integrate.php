@@ -1,9 +1,9 @@
 <?php
 
 /**
- * 昊海电商 第三方程序会员数据整合插件管理程序
+ * 电商 第三方程序会员数据整合插件管理程序
  * ============================================================================
- * * 版权所有 2012-2014 西安昊海网络科技有限公司，并保留所有权利。
+ * * 版权所有 2012-2014 西安网络科技有限公司，并保留所有权利。
  * 网站地址: http://www.xaphp.cn；
  * ----------------------------------------------------------------------------
  * 这不是一个自由软件！您只能在不用于商业目的的前提下对程序代码进行修改和
@@ -582,7 +582,7 @@ if ($_REQUEST['act'] == 'import_user')
     {
         $merge_uid = 0;
     }
-    // 更新昊海电商表
+    // 更新电商表
     foreach ($up_user_table as $table)
     {
         $db->query("UPDATE " . $hhs->table($table) . " SET `user_id`=`user_id`+ $maxuid ORDER BY `user_id` DESC");
@@ -939,7 +939,7 @@ if ($_REQUEST['act'] == 'setup_ucenter')
     $json = new JSON();
     $result = array('error' => 0, 'message' => '');
 
-    $app_type   = '昊海电商';
+    $app_type   = '电商';
     $app_name   = $db->getOne('SELECT value FROM ' . $hhs->table('shop_config') . " WHERE code = 'shop_name'");
     $app_url    = $GLOBALS['hhs']->url();
     $app_charset = EC_CHARSET;

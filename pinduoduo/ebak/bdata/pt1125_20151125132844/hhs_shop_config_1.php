@@ -24,9 +24,9 @@ E_C("CREATE TABLE `hhs_shop_config` (
 ) ENGINE=MyISAM AUTO_INCREMENT=924 DEFAULT CHARSET=utf8");
 E_D("replace into `hhs_shop_config` values('1','0','shop_info','group','','','','1');");
 E_D("replace into `hhs_shop_config` values('914','912','index_share_dec','text','','','这个商品帅呆了，大家一起来拼单吧，赶紧行动吧！GOGOGOGO！','1');");
-E_D("replace into `hhs_shop_config` values('101','1','shop_name','text','','','昊海拼团','1');");
-E_D("replace into `hhs_shop_config` values('102','1','shop_title','text','','','昊海拼团  11-1【测试-网站演示专用】','1');");
-E_D("replace into `hhs_shop_config` values('103','1','shop_desc','text','','','昊海拼团，优质水果新鲜直供，大家一起来玩吧！!','1');");
+E_D("replace into `hhs_shop_config` values('101','1','shop_name','text','','','拼团','1');");
+E_D("replace into `hhs_shop_config` values('102','1','shop_title','text','','','拼团  11-1【测试-网站演示专用】','1');");
+E_D("replace into `hhs_shop_config` values('103','1','shop_desc','text','','','拼团，优质水果新鲜直供，大家一起来玩吧！!','1');");
 E_D("replace into `hhs_shop_config` values('104','1','shop_keywords','text','','','一聚就惠','1');");
 E_D("replace into `hhs_shop_config` values('913','912','index_share_title','text','','','这个商品帅呆了，大家一起来拼单吧，赶紧行动吧！GOGOGOGO！','1');");
 E_D("replace into `hhs_shop_config` values('912','0','share_info','group','','','','1');");
