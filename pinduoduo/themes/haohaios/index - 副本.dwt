@@ -40,44 +40,77 @@
 	<div class="swiper-pagination"></div>
 </div>
     </section>
-
+    <section class="main-view">
+        <div id="tuan" class="tuan" style="padding-top: 10px; display: block;">
+            <div ms-repeat-item="goods_list">
+                <!--{foreach name=goods_list from=$goods_list item=goods}-->
+                <div class="tuan_g" >
+                    <a href="{if $goods.goods_number gt 0}{$goods.url}{else}javascript:void(0);{/if}">
+                        <div class="tuan_g_img">
+                            <img src="{$goods.little_img}">
+                            {if $goods.goods_number lt 1}
+                            <span class="sell_f"></span>
+                            {/if}
+                            <span class="tuan_mark tuan_mark2">
+                            <b>{$goods.team_discount}折</b>
+                            <span>{$goods.team_num}人团</span>
+                            </span>
+                        </div>
+                        <div class="tuan_g_info">
+                            <p class="tuan_g_name">{$goods.goods_name}</p>
+                            <p class="tuan_g_cx">{$goods.goods_brief}</p>
+                        </div>
+                        <div class="tuan_g_core">
+                            <div class="tuan_g_price">
+                                <span>{$goods.team_num}人团</span>
+                                <b>¥{$goods.team_price}</b>
+                            </div>
+                            <div class="tuan_g_btn">去开团</div>
+                        </div>
+                        <div class="tuan_g_mprice">市场价：
+                            <del>¥{$goods.market_price}</del>
+                        </div>
+                    </a>
+                </div>
+                <!--{/foreach}-->
+            </div>
+        </div>
+    </section>
     <!-------------------------开始--------------------------------------->
     <div id="subject-goods-list" class="main-view tuan subject-single-goods" style="visibility: visible;">
         <div class="base-list-wrapper" avalonctrl="subject-goods-list">
             <!--{foreach name=goods_list from=$goods_list item=goods}-->
             <div class="subject-goods-list-item-0" id="subject-goods-list-item-0">
-                <a href="{if $goods.goods_number gt 0}{$goods.url}{else}javascript:void(0);{/if}">
-                    <div class="single-list-item-v2 first-item" avalonctrl="subject-goods-list-item-0">
-                        <div class="std-goods-image-square">
-                            <img  data-index="0" src="{$goods.little_img}">
-                        </div>
-                        <div class="detail">
-                            <p class="goods-name">
-                                {$goods.goods_name}
-                            </p>
-                            <!--<div class="local-groups">
-                                <span class="local-groups-bubble">拼起来</span>
-                                <div class="avatar">
-                                    <img src="./品质优选 闪电发货_files/ccde15ff7d4e96475b3af7d225d0886636f5c9da">
-                                </div>
-                                <div class="avatar">
-                                    <img src="./品质优选 闪电发货_files/98f1c527eda577d91a77ab1f1e59cfd41f807fed">
-                                </div>
-                            </div>-->
-                            <div class="core">
-                                <div class="info">
-                                    <span>已团38000件</span>
-                                </div>
-                                <div class="sale-price">
-                                    <i>￥</i>{$goods.team_price}
-                                </div>
+                <div class="single-list-item-v2 first-item" avalonctrl="subject-goods-list-item-0">
+                    <div class="std-goods-image-square">
+                        <img data-url="{if $goods.goods_number gt 0}{$goods.url}{else}javascript:void(0);{/if}" data-index="0" src="{$goods.little_img}">
+                    </div>
+                    <div class="detail">
+                        <p class="goods-name">
+                            {$goods.goods_name}
+                        </p>
+                        <!--<div class="local-groups">
+                            <span class="local-groups-bubble">拼起来</span>
+                            <div class="avatar">
+                                <img src="./品质优选 闪电发货_files/ccde15ff7d4e96475b3af7d225d0886636f5c9da">
                             </div>
-
-                                <div class="enter-button enter-button-arrow">去开团</div>
-
+                            <div class="avatar">
+                                <img src="./品质优选 闪电发货_files/98f1c527eda577d91a77ab1f1e59cfd41f807fed">
+                            </div>
+                        </div>-->
+                        <div class="core">
+                            <div class="info">
+                                <span>已团3.8万件</span>
+                            </div>
+                            <div class="sale-price">
+                                <i>￥</i>{$goods.team_price}
+                            </div>
+                        </div>
+                        <div class="enter-button enter-button-arrow">
+                            去开团
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
             <!--{/foreach}-->
 

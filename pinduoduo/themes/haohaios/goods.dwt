@@ -84,11 +84,12 @@ function weiguanzhu(){
                     <div class="td2_num">已售：<span>{$buy_num}</span>件</div>
                     <a href="good_info.php?id={$goods.goods_id}" class="td2_btn">查看商品详情 <i class="fa fa-angle-right"></i></a>
                 </div>
-                <div class="td2_hb">
+                <!--<div class="td2_hb">
 				    <span class="td2_hb_ico"><i></i></span>
 					<span class="td2_hb_txt">支付开团并邀请{$d_team_num}人参团，人数不足自动退款，详见下方拼团玩法具体说明</span>
 			    </div>
             </div>
+
             {if $specification}
             <div class="spec">
       <ul>
@@ -111,7 +112,7 @@ function weiguanzhu(){
       </ul>
             </div>
            {/if}
-           
+           -->
             {if $goods.limit_buy_bumber eq 1}
             
             <input name="number"  type="hidden" id="number" class="text" value="1"/>
@@ -218,7 +219,7 @@ function weiguanzhu(){
 
 </div>
 
-<!-- #BeginLibraryItem "/library/footer.lbi" --><!-- #EndLibraryItem -->
+<!-- #BeginLibraryItem "/library/pages.lbi" --><!-- #EndLibraryItem -->
 </body>
 <script type="text/javascript">
 var goods_id = {$goods_id};
