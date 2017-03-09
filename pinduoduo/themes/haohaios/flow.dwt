@@ -326,12 +326,6 @@
                 <input type="button" onclick="done(this);" value="立即支付" class="pay2_btn"/>
                 <input type="hidden" name="step" value="done" />
             </div>
-            <!--disabled="disabled"  -->
-            <div>
-            	<input type="hidden" name="lat" id="lat" value="{$lat}" />
-            	<input type="hidden" name="lng" id="lng" value="{$lng}" />
-                <input type="submit" name="share_pay"  id="share_pay"  value="找人代付" class="pay2_btn" /> 
-            </div> 
         </div>
     </div>
     </form>

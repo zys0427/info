@@ -218,8 +218,7 @@ function weiguanzhu(){
     </section>
 
 </div>
-
-<!-- #BeginLibraryItem "/library/pages.lbi" --><!-- #EndLibraryItem -->
+<!-- #BeginLibraryItem "/library/footer.lbi" --><!-- #EndLibraryItem -->
 </body>
 <script type="text/javascript">
 var goods_id = {$goods_id};
