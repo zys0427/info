@@ -140,6 +140,8 @@ elseif ($_REQUEST['act'] == 'add')
 
     /* 显示页面 */
     assign_query_info();
+    print_r($_LANG);
+    print_r($priv_arr);
     $smarty->display('role_info.htm');
 
 
