@@ -10,8 +10,8 @@ $modules['02_cat_and_goods']['03_category_list']    = 'category.php?act=list';
 //$modules['02_cat_and_goods']['05_comment_manage']   = 'comment_manage.php?act=list';
 //$modules['02_cat_and_goods']['06_goods_brand_list'] = 'brand.php?act=list';
 $modules['02_cat_and_goods']['08_goods_type']       = 'goods_type.php?act=manage';
-$modules['02_cat_and_goods']['11_goods_trash']      = 'goods.php?act=trash';        // 商品回收站
-$modules['02_cat_and_goods']['12_batch_pic']        = 'picture_batch.php';
+//$modules['02_cat_and_goods']['11_goods_trash']      = 'goods.php?act=trash';        // 商品回收站
+//$modules['02_cat_and_goods']['12_batch_pic']        = 'picture_batch.php';
 //$modules['02_cat_and_goods']['14_goods_export']     = 'goods_export.php?act=goods_export';
 //$modules['02_cat_and_goods']['17_tag_manage']       = 'tag_manage.php?act=list';
 //$modules['02_cat_and_goods']['50_virtual_card_list']   = 'goods.php?act=list&extension_code=virtual_card';
@@ -20,7 +20,7 @@ $modules['02_cat_and_goods']['12_batch_pic']        = 'picture_batch.php';
 //$modules['02_cat_and_goods']['goods_auto']             = 'goods_auto.php?act=list';
 
 
-$modules['03_promotion']['04_bonustype_list']       = 'bonus.php?act=list';
+//$modules['03_promotion']['04_bonustype_list']       = 'bonus.php?act=list';//促销管理
 //$modules['03_promotion']['06_pack_list']            = 'pack.php?act=list';
 //$modules['03_promotion']['07_card_list']            = 'card.php?act=list';
 //$modules['03_promotion']['08_group_buy']            = 'group_buy.php?act=list';
@@ -47,7 +47,8 @@ $modules['04_order']['10_back_order']               = 'order.php?act=back_list';
 //$modules['05_banner']['ad_position']                = 'ad_position.php?act=list';
 //$modules['05_banner']['ad_list']                    = 'ads.php?act=list';
 
-
+/**** 报表管理*/
+/*
 $modules['06_stats']['report_guest']                = 'guest_stats.php?act=list';
 $modules['06_stats']['report_order']                = 'order_stats.php?act=list';
 $modules['06_stats']['report_sell']                 = 'sale_general.php?act=list';
@@ -55,7 +56,7 @@ $modules['06_stats']['sale_list']                   = 'sale_list.php?act=list';
 $modules['06_stats']['sell_stats']                  = 'sale_order.php?act=goods_num';
 $modules['06_stats']['report_users']                = 'users_order.php?act=order_num';
 $modules['06_stats']['visit_buy_per']               = 'visit_sold.php?act=list';
-
+*/
 $modules['07_content']['03_article_list']           = 'article.php?act=list';
 $modules['07_content']['02_articlecat_list']        = 'articlecat.php?act=list';
 //$modules['07_content']['vote_list']                 = 'vote.php?act=list';
@@ -68,13 +69,14 @@ $modules['08_members']['04_users_add']              = 'users.php?act=add';
 //$modules['08_members']['08_unreply_msg']            = 'user_msg.php?act=list_all';
 $modules['08_members']['09_user_account']           = 'user_account.php?act=list';
 $modules['08_members']['10_user_account_manage']    = 'user_account_manage.php?act=list';
-
+/*权限管理*/
+/*
 $modules['10_priv_admin']['admin_logs']             = 'admin_logs.php?act=list';
 $modules['10_priv_admin']['admin_list']             = 'privilege.php?act=list';
 $modules['10_priv_admin']['admin_role']             = 'role.php?act=list';
 //$modules['10_priv_admin']['agency_list']            = 'agency.php?act=list';
 //$modules['10_priv_admin']['suppliers_list']         = 'suppliers.php?act=list'; // 供货商
-
+*/
 $modules['11_system']['01_shop_config']             = 'shop_config.php?act=list_edit';
 $modules['11_system']['02_payment_list']            = 'payment.php?act=list';
 $modules['11_system']['03_shipping_list']           = 'shipping.php?act=list';
@@ -94,7 +96,7 @@ $modules['11_system']['flashplay']                  = 'flashplay.php?act=list';
 //$modules['12_template']['mail_template_manage']     = 'mail_template.php?act=list';
 
 
-$modules['13_backup']['02_db_manage']               = 'database.php?act=backup';
+//$modules['13_backup']['02_db_manage']               = 'database.php?act=backup';
 //$modules['13_backup']['03_db_optimize']             = 'database.php?act=optimize';
 //$modules['13_backup']['04_sql_query']               = 'sql.php?act=main';
 
@@ -103,7 +105,7 @@ $modules['14_wxch']['02_config']             = 'wxch.php?act=config';
 $modules['14_wxch']['03_regmsg']               = 'wxch.php?act=regmsg';
 $modules['14_wxch']['04_keywords']               = 'wxch.php?act=keywords';
 $modules['14_wxch']['05_menu']             = 'weixin_menu.php?act=list';
-$modules['14_wxch']['08_share']             = 'wx_share.php?act=list';
-$modules['14_wxch']['06_bonus']               = 'wxch.php?act=bonus';
+//$modules['14_wxch']['08_share']             = 'wx_share.php?act=list';
+//$modules['14_wxch']['06_bonus']               = 'wxch.php?act=bonus';
 
 ?>
