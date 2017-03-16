@@ -575,6 +575,7 @@ class wechatCallbackapi{
         return $data;
     }
     protected function coupon($db, $fromUsername,$base_url) {
+        return "";
 		$weixinusertable = $db -> prefix . 'weixin_user';
 		$weixinbonustable = $db -> prefix . 'weixin_bonus';
         $retc = $db->getRow("SELECT `coupon` FROM `$weixinusertable` WHERE `wxid` ='$fromUsername'");
