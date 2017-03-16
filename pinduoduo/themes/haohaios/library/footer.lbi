@@ -1,8 +1,8 @@
 <footer class="footer">
     <ul>
-        <li><a href="index.php" class="nav-controller active"><i class="fa fa-home"></i>首页</a></li>
-        <li><a href="rank.php?act=hot" class="nav-controller"><i class="fa fa-trophy"></i>热榜</a></li>
-        <li><a href="cat_all.php" class="nav-controller"><i class="fa fa-list"></i>分类</a></li>
-        <li><a href="user.php" class="nav-controller"><i class="fa fa-user"></i>个人中心</a></li>
+        <li><a href="index.php" class="nav-controller active aaa"><i class="fa fa-home"></i>首页</a></li>
+        <li><a href="cat_all.php" class="nav-controller bbb"><i class="fa fa-list"></i>分类</a></li>
+        <li><a href="article.php?id=38" class="nav-controller ccc"><i class="fa fa-trophy"></i>售后</a></li>
+        <li><a href="user.php" class="nav-controller ddd"><i class="fa fa-user"></i>个人中心</a></li>
     </ul>
 </footer>

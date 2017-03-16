@@ -14,14 +14,7 @@
 </head>
 <body>
 <div class="container">
-    <div class="main_menu">
-        <ul>
-            <li><a href="index.php">首页</a></li>
-            {foreach from=$categories item=cat}
-            <li><a href="{$cat.url}"{if $cat.id eq $cat_id} class="cur"{/if}>{$cat.name|escape:html}</a></li>
-            {/foreach}
-        </ul>
-    </div>
+
 
 <div class="tuan" style="padding-top:30px; display: block;">
             <div ms-repeat-item="goods_list">
@@ -63,14 +56,6 @@
              </div>
         </div>
 </div>
-
-<div class="footer">
-    <ul>
-        <li><a href="index.php" class="nav-controller"><i class="fa fa-home"></i>首页</a></li>
-        <li><a href="rank.php?act=hot" class="nav-controller"><i class="fa fa-trophy"></i>热榜</a></li>
-        <li><a href="cat_all.php" class="nav-controller active"><i class="fa fa-list"></i>分类</a></li>
-        <li><a href="user.php" class="nav-controller"><i class="fa fa-user"></i>个人中心</a></li>
-    </ul>
-</div>
+<!-- #BeginLibraryItem "/library/footer.lbi" --><!-- #EndLibraryItem -->
 </body>
 </html>

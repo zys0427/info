@@ -49,9 +49,9 @@
                     <li class="nav_item nav_cart">
                         <div class="nav_item_hd"><a href="user.php?act=address_list">我的地址 </a></div>
                     </li>
-                    <li class="nav_item nav_cart">
+                    <!--<li class="nav_item nav_cart">
                         <div class="nav_item_hd_coupons"><a class="coupons_a" href="user.php?act=bonus">我的优惠券 </a></div>
-                    </li>
+                    </li>-->
                     <li class="nav_item nav_cart">
                         <div class="nav_item_hd_coupons_sale"><a class="coupons_a" href="article.php?id=38">售后服务 </a></div>
                     </li>
@@ -67,13 +67,10 @@
     </section>
 <!-- {/if} -->
 </div>
-<div class="footer">
-    <ul>
-        <li><a href="index.php" class="nav-controller"><i class="fa fa-home"></i>首页</a></li>
-        <li><a href="rank.php?act=hot" class="nav-controller"><i class="fa fa-trophy"></i>热榜</a></li>
-        <li><a href="cat_all.php" class="nav-controller"><i class="fa fa-list"></i>分类</a></li>
-        <li><a href="user.php" class="nav-controller active"><i class="fa fa-user"></i>个人中心</a></li>
-    </ul>
-</div>
+<!-- #BeginLibraryItem "/library/footer.lbi" --><!-- #EndLibraryItem -->
 </body>
+<script>
+    $(".nav-controller").removeClass('active');
+    $(".ddd").addClass('active')
+</script>
 </html>

@@ -22,5 +22,10 @@
         <div class="bod">{$article.content}</div>
         <!-- {/if} -->
     </div>
+    <!-- #BeginLibraryItem "/library/footer.lbi" --><!-- #EndLibraryItem -->
 </body>
+<script>
+    $(".nav-controller").removeClass('active');
+    $(".ccc").addClass('active')
+</script>
 </html>

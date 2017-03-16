@@ -228,7 +228,7 @@ li {
 .footer {
 	width:100%;
 	max-width:640px;
-	height:56px;
+	height:49px;
 	position:fixed;
 	bottom:0;
 	left:50%;
@@ -238,8 +238,10 @@ li {
 	background-color:#fff;
 	border-top:#eceded;
 	-webkit-box-shadow:0 0 4px rgba(0,0,0,.2);
-	box-shadow:0 0 4px rgba(0,0,0,.2)
+	box-shadow:0 0 4px rgba(0,0,0,.2);
 }
+
+
 .footer li {
 	float:left;
 	width:25%;
@@ -248,11 +250,11 @@ li {
 }
 .footer a {
 	color:#777;
-	font-size:13px
+	font-size:10px
 }
 .footer a:hover,.footer a:focus {
 	color:#777;
-	font-size:13px
+	font-size:10px
 }
 .footer a.active {
 	color:#DF2127
