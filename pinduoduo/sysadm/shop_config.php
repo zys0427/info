@@ -64,7 +64,6 @@ if ($_REQUEST['act'] == 'list_edit')
         }
     }
     $smarty->assign('cfg', $_CFG);
-
     assign_query_info();
     $smarty->display('shop_config.htm');
 }

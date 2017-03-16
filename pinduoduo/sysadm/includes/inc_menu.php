@@ -20,15 +20,15 @@ $modules['02_cat_and_goods']['08_goods_type']       = 'goods_type.php?act=manage
 //$modules['02_cat_and_goods']['goods_auto']             = 'goods_auto.php?act=list';
 
 
-//$modules['03_promotion']['04_bonustype_list']       = 'bonus.php?act=list';//促销管理
-//$modules['03_promotion']['06_pack_list']            = 'pack.php?act=list';
-//$modules['03_promotion']['07_card_list']            = 'card.php?act=list';
-//$modules['03_promotion']['08_group_buy']            = 'group_buy.php?act=list';
-//$modules['03_promotion']['09_topic']                = 'topic.php?act=list';
-//$modules['03_promotion']['12_favourable']           = 'favourable.php?act=list';
-//$modules['03_promotion']['13_wholesale']            = 'wholesale.php?act=list';
-//$modules['03_promotion']['14_package_list']         = 'package.php?act=list';
-//$modules['03_promotion']['15_exchange_goods']       = 'exchange_goods.php?act=list';
+$modules['03_promotion']['04_bonustype_list']       = 'bonus.php?act=list';//促销管理
+$modules['03_promotion']['06_pack_list']            = 'pack.php?act=list';
+$modules['03_promotion']['07_card_list']            = 'card.php?act=list';
+$modules['03_promotion']['08_group_buy']            = 'group_buy.php?act=list';
+$modules['03_promotion']['09_topic']                = 'topic.php?act=list';
+$modules['03_promotion']['12_favourable']           = 'favourable.php?act=list';
+$modules['03_promotion']['13_wholesale']            = 'wholesale.php?act=list';
+$modules['03_promotion']['14_package_list']         = 'package.php?act=list';
+$modules['03_promotion']['15_exchange_goods']       = 'exchange_goods.php?act=list';
 
 
 $modules['04_order']['02_order_list']               = 'order.php?act=list';
@@ -44,6 +44,7 @@ $modules['04_order']['03_order_query']              = 'order.php?act=order_query
 $modules['04_order']['09_delivery_order']           = 'order.php?act=delivery_list';
 $modules['04_order']['10_back_order']               = 'order.php?act=back_list';
 
+/**** 广告管理*/
 //$modules['05_banner']['ad_position']                = 'ad_position.php?act=list';
 //$modules['05_banner']['ad_list']                    = 'ads.php?act=list';
 
@@ -69,6 +70,8 @@ $modules['08_members']['04_users_add']              = 'users.php?act=add';
 //$modules['08_members']['08_unreply_msg']            = 'user_msg.php?act=list_all';
 $modules['08_members']['09_user_account']           = 'user_account.php?act=list';
 $modules['08_members']['10_user_account_manage']    = 'user_account_manage.php?act=list';
+
+
 /*权限管理*/
 /*
 $modules['10_priv_admin']['admin_logs']             = 'admin_logs.php?act=list';
